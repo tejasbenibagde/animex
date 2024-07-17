@@ -89,4 +89,4 @@ The `cd` command changes the directory you're working with. In order to work wit
 
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-**[`Back to top ⬆️`](#table-of-contents)**
+**[`Back to top ⬆️`](#animex)**

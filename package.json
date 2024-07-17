@@ -1,7 +1,7 @@
 {
   "name": "animex",
   "description": "A super easy animation library for Reactjs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Tejas Benibagde",
   "license": "MIT",
   "main": "dist/index.js",
