@@ -1,7 +1,7 @@
 {
   "name": "animex",
   "description": "A super easy animation library for Reactjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Tejas Benibagde",
   "license": "MIT",
   "main": "dist/index.js",
@@ -11,6 +11,10 @@
     "build": "npx rollup -c",
     "test": "jest",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tejasbenibagde/animex"
   },
   "keywords": [
     "animation",

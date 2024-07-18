@@ -81,7 +81,7 @@ export default App;
 Run the development server:
 
 ```bash
-cd my-website
+cd my-anime-project
 npm run start
 ```
 
