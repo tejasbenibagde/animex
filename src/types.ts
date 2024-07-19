@@ -1,3 +1,5 @@
+import { AnimeParams } from 'animejs';
+
 export type Easing =
   | 'easeInSine'
   | 'easeOutSine'
@@ -45,13 +47,13 @@ export type AnimeValue =
   | number
   | ((el: Element, index?: number) => string | number);
 
-export type AnimeProps = {
+export interface AnimeProps {
   children?: React.ReactNode;
-  delay?: ((el: Element, index?: number, len?: number) => number) | number;
+  delay?: AnimeParams['delay'];
   duration?: ((el: Element, index?: number, len?: number) => number) | number;
   autoplay?: boolean;
   loop?: number | boolean;
-  direction?: 'normal' | 'reverse' | 'alternate';
+  direction?: 'normal' | 'reverse' | 'alternate' | string;
   easing?: Easing;
   elasticity?: number;
   round?: number | boolean;
@@ -80,6 +82,6 @@ export type AnimeProps = {
 
   // Custom Props
   [prop: string]: any;
-};
+}
 
 export const PREFIX = '__anime__';

@@ -1,6 +1,9 @@
-# animex
+# [animex](https://docs-animex.netlify.app/)
 
 [![npm version](https://img.shields.io/npm/v/animex.svg)](https://www.npmjs.com/package/animex)
+
+# Documentation
+For detailed documentation on how to use animex, visit our [documentation](https://docs-animex.netlify.app/) site.
 
 # Getting Started
 
@@ -51,14 +54,14 @@ yarn install animex
 Now, let's set up a simple animation using AnimeX. Open your **src/App.js** or **src/App.tsx** file and replace its contents with the following:
 
 ```js title="App.js"
-import React from 'react';
-import Anime, { anime } from 'animex';
+import React from "react";
+import Anime, { anime } from "animex";
 
 const App = () => {
   const props = {
     scale: [0.1, 0.9],
     autoplay: true,
-    direction: 'normal',
+    direction: "normal",
     delay: anime.stagger(100),
     translateX: 250,
   };
@@ -81,7 +84,7 @@ export default App;
 Run the development server:
 
 ```bash
-cd my-anime-project
+cd my-website
 npm run start
 ```
 
@@ -89,4 +92,5 @@ The `cd` command changes the directory you're working with. In order to work wit
 
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-**[`Back to top ⬆️`](#animex)**
+
+**[`Back to top ⬆️`](#table-of-contents)**
